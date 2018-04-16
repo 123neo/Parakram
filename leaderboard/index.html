@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/*	
+	Side Navigation Menu V2, RWD
+	===================
+	License:
+	https://goo.gl/EaUPrt
+	===================
+	Author: @PableraShow
+
+ */
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.42em;
+  color:#A7A1AE;
+  background-color:#1F2739;
+}
+
+h1 {
+  font-size:3em; 
+  font-weight: 300;
+  line-height:1em;
+  text-align: center;
+  color: #4DC3FA;
+}
+
+
+
+h2 a {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FB667A;
+  text-decoration: none;
+}
+
+.blue { color: #185875; }
+.yellow { color: #900C3F; }
+
+.container th h1 {
+	  font-weight: bold;
+	  font-size: 1em;
+  text-align: left;
+  color: #2474AD;
+}
+
+.container td {
+	  font-weight: normal;
+	  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	   -moz-box-shadow: 0 2px 2px -2px #0E1119;
+	        box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container {
+	  text-align: left;
+	  overflow: hidden;
+	  width: 80%;
+	  margin: 0 auto;
+  display: table;
+  padding: 0 0 8em 0;
+}
+
+.container td, .container th {
+	  padding-bottom: 1%;
+	  padding-top: 1%;
+  padding-left:2%;  0
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+	  background-color: #323C50;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+	  background-color: #2C3446;
+}
+
+.container th {
+	  background-color: #1F2739;
+}
+
+.container td:first-child { color: #FB667A; }
+
+.container tr:hover {
+   background-color: #464A52;
+-webkit-box-shadow: 0 3px 3px -3px #0E1119;
+	   -moz-box-shadow: 0 3px 3px -3px #0E1119;
+	        box-shadow: 0 3px 3px -3px #0E1119;
+}
+
+.container td:hover {
+  background-color: #900C3F;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+	  transition-duration: 0.4s;
+	  transition-property: all;
+  transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+.container td:nth-child(4),
+.container th:nth-child(4) { display: none; }
+}
+h2{
+color: #BBC5CC;
+text-align : center;
+font-family: 'renasci';
+font-size: 80px;
+letter-spacing: 15px;
+}
+p{
+text-align: center;
+}
+@font-face {
+
+ font-family : renasci;
+src : url(renasci-regular.otf);
+}
+</style>
+</head>
+<body>
+
+<h2>Leaderboard</h2>
+<p style="padding-left: 15px; padding-right: 15px;">This leaderboard represents the bounty secured by each branch by participation in following events - Aquamania, Aquatown, Transcendence, Logic Armers, Resiwars, Googler, Codathon, Chem-a-car, Millau Vaiduct, Jam-on Ham, Posterholic - that took place on day-0 and day-1.</p>
+
+
+<br>
+
+<table class="container">
+	<thead>
+		<tr>
+			<th><h1>Branch</h1></th>
+			<th><h1>Bounty</h1></th>
+			
+			<!---<th><h1>Average</h1></th>--->
+		</tr>
+	</thead>
+	<tbody>
+	    <tr>
+			<td>Computer Science</td>
+			<td>4125</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Chemical</td>
+			<td>3725</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Electrical</td>
+			<td>2375</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Information Technology</td>
+			<td>2175</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Civil</td>
+			<td>1775</td>
+			
+			
+		</tr>
+    <tr>
+			<td>Electronics and Instrumentation</td>
+			<td>1625</td>
+			
+			
+		</tr>
+    
+    <tr>
+			<td>Electronics & Communication</td>
+			<td>1400</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Mechanical</td>
+			<td>1325</td>
+			
+			
+		</tr>
+	</tbody>
+</table>
+<br>
+
+<h2>Student-Leaderboard</h2>
+<p>
+"Only time success comes before work is in the dictionary".<br> Here is the list of all the students who put in the hard work & achieved the highest ranks amongst other participants.
+</p>
+
+<br>
+
+<table class="container">
+	<thead>
+		<tr>
+    		<th><h1>Student</h1></th>
+			<th><h1>Branch</h1></th>
+			<th><h1>Bounty</h1></th>
+			
+			
+		</tr>
+	</thead>
+	<tbody>
+	    <tr>
+			<td>Aman Kumar Gupta</td>
+			<td>IT</td>
+			<td>775</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Kushagra Shukla</td>
+			<td>CSE</td>
+			<td>675</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Pawan Gupta</td>
+			<td>CSE</td>
+			<td>550</td>
+			
+		</tr>
+		<tr>
+			<td>Rahul Shukla</td>
+			<td>CE</td>
+			<td>500</td>
+			
+		</tr>
+		<tr>
+			<td>Sonali Madheshia</td>
+			<td>CE</td>
+			<td>500</td>
+			
+			
+		</tr>
+    <tr>
+			<td>Pranay Patel</td>
+			<td>CE</td>
+			<td>475</td>
+			
+		</tr>
+    
+    <tr>
+			<td>Himanshu Verma</td>
+			<td>EE</td>
+			<td>450</td>
+			
+			
+		</tr>
+		<tr>
+			<td>Aviral Katiyar</td>
+			<td>CE</td>
+			<td>400</td>
+			
+		</tr>
+		<tr>
+			<td>Harshit Srivastava</td>
+			<td>EI</td>
+			<td>400</td>
+			
+		</tr>
+		<tr>
+			<td>Prashant Rahi</td>
+			<td>CE</td>
+			<td>400</td>
+			
+		</tr>
+		<tr>
+			<td>Shanu Singh</td>
+			<td>CHE</td>
+			<td>400</td>
+			
+		</tr>
+		<tr>
+			<td>Vidhu Pratap Singh</td>
+			<td>CSE</td>
+			<td>400</td>
+			
+		</tr>
+		<tr>
+			<td>Kshitij Jaiswal</td>
+			<td>EE</td>
+			<td>375</td>
+			
+		</tr>
+		<tr>
+			<td>Priya Kumari</td>
+			<td>EE</td>
+			<td>375</td>
+			
+		</tr>
+		<tr>
+			<td>Rohit Verma</td>
+			<td>CSE</td>
+			<td>375</td>
+			
+		</tr>
+		<tr>
+			<td>Aakash</td>
+			<td>CHE</td>
+			<td>350</td>
+			
+		</tr>
+		<tr>
+			<td>Aayush Singh </td>
+			<td>CHE</td>
+			<td>350</td>
+			
+		</tr>
+		<tr>
+			<td>Kashish Yadav</td>
+			<td>CHE</td>
+			<td>350</td>
+			
+		</tr>
+		<tr>
+			<td>Saksham Agarwal</td>
+			<td>CSE</td>
+			<td>350</td>
+			
+		</tr>
+		<tr>
+			<td>Shubham Gupta</td>
+			<td>CHE</td>
+			<td>350</td>
+			
+		</tr>
+		<tr>
+			<td>Tabrez Siddiqui</td>
+			<td>CHE</td>
+			<td>350</td>
+			
+		</tr>
+		<tr>
+			<td>Yash Kumar Vyas</td>
+			<td>EI</td>
+			<td>350</td>
+			
+		</tr>
+		<tr>
+			<td>Abhishek Sharma</td>
+			<td>ME</td>
+			<td>325</td>
+			
+		</tr>
+		<tr>
+			<td>Nitin</td>
+			<td>CHE</td>
+			<td>325</td>
+			
+		</tr>
+		<tr>
+			<td>Ashutosh</td>
+			<td>CE</td>
+			<td>300</td>
+			
+		</tr>
+		<tr>
+			<td>Rajat</td>
+			<td>CHE</td>
+			<td>300</td>
+			
+		</tr>
+		<tr>
+			<td>Satendra Pratap Singh</td>
+			<td>CE</td>
+			<td>300</td>
+			
+		</tr>
+		<tr>
+			<td>Vishnu Kumar</td>
+			<td>CSE</td>
+			<td>300</td>
+			
+		</tr>
+		<tr>
+			<td>Ankur</td>
+			<td>EE</td>
+			<td>275</td>
+			
+		</tr>
+		<tr>
+			<td>Aarushi</td>
+			<td>CE</td>
+			<td>275</td>
+			
+		</tr>
+		<tr>
+			<td>Prashant Singh</td>
+			<td>ME</td>
+			<td>275</td>
+			
+		</tr>
+		<tr>
+			<td>Shubhendra</td>
+			<td>CSE</td>
+			<td>275</td>
+			
+		</tr>
+		<tr>
+			<td>Swarnim Dixit</td>
+			<td>ECE</td>
+			<td>275</td>
+			
+		</tr>
+		<tr>
+			<td>Vipul Kumar</td>
+			<td>IT</td>
+			<td>275</td>
+			
+		</tr>
+		
+	
+	</tbody>
+</table>
+
+</body>
+</html>
